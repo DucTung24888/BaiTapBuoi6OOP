@@ -1,11 +1,12 @@
-package BaiTapKeThua;
+package BaiTap2TinhDaHinh;
 
 public class Dancer extends Person {
     private String groupName;
-    protected void dancing(){
-        System.out.println("dancing of Dancer");
-    }
 
+//    protected void eat(String food) {
+//        System.out.println(food);
+//    }
+    public Dancer(){}
     public Dancer(String groupName) {
         this.groupName = groupName;
     }

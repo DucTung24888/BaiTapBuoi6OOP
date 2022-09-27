@@ -1,4 +1,6 @@
-public class Dancer extends Person{
+package BaiTapKeThua;
+
+public class Dancer extends Person {
     private String groupName;
     protected void dancing(){
         System.out.println("dancing of Dancer");

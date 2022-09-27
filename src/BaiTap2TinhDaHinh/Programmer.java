@@ -1,4 +1,4 @@
-package BaiTapKeThua;
+package BaiTap2TinhDaHinh;
 
 public class Programmer extends Person {
     private String companyname;
@@ -6,7 +6,10 @@ public class Programmer extends Person {
         System.out.println("coding of Programer");
     }
     public Programmer() {
+
     }
+
+
     protected void learn(){
         System.out.println("learn of programmer");
     }

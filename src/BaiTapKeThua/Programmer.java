@@ -1,4 +1,6 @@
-public class Programmer extends Person{
+package BaiTapKeThua;
+
+public class Programmer extends Person {
     private String companyname;
     protected void coding(){
         System.out.println("coding of Programer");

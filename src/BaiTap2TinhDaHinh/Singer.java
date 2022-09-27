@@ -1,4 +1,4 @@
-package BaiTapKeThua;
+package BaiTap2TinhDaHinh;
 
 public class Singer extends Person {
     private String bandName;
@@ -8,7 +8,10 @@ public class Singer extends Person {
     protected void playGitar(){
         System.out.println("PlayGitar of Singer");
     }
-
+//    protected void eat(String food) {
+//        System.out.println(food);
+//    }
+    public Singer(){}
     public Singer(String bandName) {
         this.bandName = bandName;
     }

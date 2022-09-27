@@ -1,13 +1,30 @@
-public class Programmer extends Person{
+package TinhDaHinh;
+
+public class Programmer extends Person {
     private String companyname;
-    protected void coding(){
+
+    protected void coding() {
         System.out.println("coding of Programer");
     }
+
     public Programmer() {
     }
-    protected void learn(){
+
+    @Override
+    protected void learn() {
         System.out.println("learn of programmer");
     }
+
+    @Override
+    protected void walk() {
+        System.out.println("walk of programmer");
+    }
+
+    @Override
+    protected void eat() {
+        System.out.println("eat of programmer");
+    }
+
 
     public Programmer(String name, String designation, String companyname) {
         super(name, designation);

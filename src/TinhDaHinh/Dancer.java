@@ -9,6 +9,7 @@ public class Dancer extends Person {
     public Dancer(String groupName) {
         this.groupName = groupName;
     }
+
     protected void learn(){
         System.out.println("lear of dancer");
     }
@@ -18,7 +19,8 @@ public class Dancer extends Person {
     protected void eat(){
         System.out.println("eat of dancer");
     }
-
+    public Dancer(){
+    }
     public Dancer(String name, String designation, String groupName) {
         super(name, designation);
         this.groupName = groupName;

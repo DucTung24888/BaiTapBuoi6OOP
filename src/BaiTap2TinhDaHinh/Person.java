@@ -1,4 +1,4 @@
-package BaiTapKeThua;
+package BaiTap2TinhDaHinh;
 
 public class Person {
     private String name;
@@ -11,6 +11,9 @@ public class Person {
     }
     protected void eat(){
         System.out.println("eat of Person");
+    }
+    public void eat(String food) {
+        System.out.println(food);
     }
 
     public Person() {

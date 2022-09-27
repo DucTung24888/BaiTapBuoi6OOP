@@ -1,4 +1,6 @@
-public class Singer extends Person{
+package BaiTapKeThua;
+
+public class Singer extends Person {
     private String bandName;
     protected void singing(){
         System.out.println("Singing of Singer");
